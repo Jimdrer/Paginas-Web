@@ -198,14 +198,16 @@ header{
 
 .proyectos{
     margin-top: 20px;
+    justify-items: center;
 }
 .grid_prjts{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px ;
+    justify-items: center;
 }
 .img{
-    
+    height: 250px;
 }
 -------------------/* FOOTER  */-------------------
 footer{
