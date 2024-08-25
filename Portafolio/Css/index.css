@@ -200,14 +200,29 @@ header{
     margin-top: 20px;
     justify-items: center;
 }
+.pt{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pt img{
+    height: 80px;
+    padding-left: 25px;
+}
 .grid_prjts{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10px ;
-    justify-items: center;
+    gap: 30px ;
+    justify-content: space-evenly;
+
 }
 .img{
     height: 250px;
+}
+.info_proy h2, h3{
+    align-items: center;
+    justify-content: center;
 }
 -------------------/* FOOTER  */-------------------
 footer{
